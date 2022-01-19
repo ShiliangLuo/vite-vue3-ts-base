@@ -1,0 +1,14 @@
+{
+  "editor.formatOnSave": true,
+  "eslint.validate": ["html", "vue", "javascript", "jsx", "ts", "tsx"],
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
