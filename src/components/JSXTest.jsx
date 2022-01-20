@@ -7,7 +7,8 @@ const JSXTest = defineComponent({
 
     return () => {
       return (
-        <div><p>{msg.value}</p>
+        <div>
+          <p>{msg.value} </p>
         </div>
       )
     }
