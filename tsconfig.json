@@ -4,6 +4,8 @@
     "module": "ESNext",
     "isolatedModules": true,
     "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
     "strict": true,
     "jsx": "preserve",
     "allowJs": true,
