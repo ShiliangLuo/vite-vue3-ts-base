@@ -5,6 +5,16 @@ defineProps({
   msg: String,
 })
 
+console.log('oo', import.meta.env.VITE_APP_BASE_URL)
+
+// fetch(`${import.meta.env.VITE_APP_BASE_URL}/api/user/register`, {
+//   method: 'post',
+// })
+//   .then(res => res.json())
+//   .then(res => {
+//     console.log(res)
+//   })
+
 const count = ref(0)
 </script>
 
@@ -35,7 +45,8 @@ const count = ref(0)
   </p>
 </template>
 
-<style scoped>
+<style lang="less" scoped>
+@import url(./style.less);
 a {
   color: #42b983;
 }
